@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60646908156",
+    "project_id": "wiki-d448f",
+    "storage_bucket": "wiki-d448f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60646908156:android:7deec957d76305b993f779",
+        "android_client_info": {
+          "package_name": "com.example.wikipediaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBICC8e5YQqWP8_N8vnIFIFJleJTxAkih4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

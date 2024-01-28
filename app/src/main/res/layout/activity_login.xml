@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login_bk"
+    android:padding="30sp">
+
+
+    <TextView
+        android:id="@+id/wiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/wikipedia"
+        style="@style/loginHeader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160sp"
+        android:textSize="40sp"/>
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/login1"
+        android:layout_below="@id/wiki"
+        style="@style/loginHeader"
+        android:layout_marginTop="10sp"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        style="@style/loginHeader"
+        android:layout_below="@id/login"
+        android:layout_marginTop="40sp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/example_gmail_com"
+        android:layout_marginTop="5sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/user"/>
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        style="@style/loginHeader"
+        android:layout_below="@id/username"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        android:layout_marginTop="5sp"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:layout_below="@+id/pass"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:background="@drawable/login_button_bk"
+        android:layout_below="@id/password"
+        android:layout_marginTop="30sp"
+        android:layout_alignEnd="@+id/password"/>
+
+</RelativeLayout>

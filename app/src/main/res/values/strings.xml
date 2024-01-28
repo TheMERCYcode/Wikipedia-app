@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">wikipedia app</string>
+    <string name="search">Search</string>
+    <string name="enter_text">Enter text</string>
+    <string name="result_will_be_displayed_here">Result will be displayed here</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="wikipedia">WIKIPEDIA</string>
+    <string name="pass">********</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="login">Login</string>
+    <string name="login1">LOGIN</string>
+    <string name="todo">TODO</string>
+</resources>
